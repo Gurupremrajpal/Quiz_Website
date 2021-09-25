@@ -2,7 +2,7 @@
 <br>
 <img src="Quiz.gif"> </img>
 <br>
-<a href="https://www.linkedin.com/in/guruprem-singh-rajpal-67b486122/Quiz/index.html"> Website </a>
+<a href="https://gurupremrajpal.github.io/Quiz_Website/Quiz/index.html"> Website </a>
 <br>
 <br>
 
