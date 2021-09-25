@@ -1,0 +1,29 @@
+body{
+  text-align: center;
+  background-color: yellowgreen;
+}
+
+.card{
+  margin: 0 auto;
+}
+
+.logo{
+  margin: 1em;
+  padding: 1em;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  
+}
+
+.col{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+figure1{
+  width: 100%;
+  height: auto;
+}
+

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Lab3</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.13.1/underscore-min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+  </head>
+  <body>
+    <header>
+      <!-- BootStrap is after class -->
+      <h1 class="bg-info p-4"> CST 336 Quiz </h1>
+    </header>
+
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        
+        <!-- Input Text -->
+        <div>
+          <h4> <span id="q1-img"></span>Q1) Name of this class? </h4>
+          <input type="text">
+          <div class="message"> </div>
+        </div>
+
+        <br>
+        
+        <!-- Radio Button -->
+        <div>
+          <h4> <span id="q2-img"></span>Q2) What is HTML?</h4>
+          <div id="radiodiv"> </div>
+          <div class="q2message">
+          </div>
+        </div>
+        
+        <br>
+
+         <!-- Extra Credit  Check Boxes -->
+        <div>
+          <h4> <span id="q3-img"></span> Q3) Select all the languages covered in class: </h4>
+          <div>
+          <input id="java" type="checkbox" value="JAVA"> <label>JAVA</label>
+          <input id="html" type="checkbox" value="HTML"> <label>HTML</label>
+          <input id="css" type="checkbox" value="CSS"> <label>CSS</label>
+          <input id="c" type="checkbox" value="C"> <label>C</label>
+          </div>
+          <div class="q3message"> </div>
+        </div> 
+
+        <br>
+
+        <!-- Dropdown -->
+        <div>
+          <h4> <span id="q4-img"></span> Q4) Who is the Professor for this class? </h4>
+          <select id="q4">
+            <option> Select one: </option>
+
+            <option > Vanessa Lopez </option>
+            
+            <option> Rhonda Mercadal-Evans </option>
+            
+            <option> Dr. Young Jong Byun </option>
+  
+            <option> Dr. Miguel Lara </option>
+          </select>
+
+          <div class="q4message">
+          </div>
+        </div> 
+
+        <br>
+        <h4> <span id="q5-img"></span>Q5) Choose correct CSUMB Logo?</h4>
+        
+        <!-- Image question -->
+        <div class="col">
+          <figure class="figure1">
+           <input id="firstimg" type="checkbox" value="img">
+          
+            <img id="logo1" alt="lb" class="logo" src="img/csu_lb_logo.png">
+          </figure>
+
+          <figure class="figure1"> 
+            <input id="secondimg" type="checkbox" value="csumb">
+
+            <img id="logo2" alt="csumb" class="logo" src="img/csumb_logo.png">
+          </figure>
+
+          <figure class="figure1">
+            <input id="thirdimg" type="checkbox" value="sj">
+
+            <img id="logo3" alt="san Jose" class="logo" src="img/San Jose uni_logo.png">
+          </figure>
+        </div>
+        <div class="q5message"></div>
+        
+        <br>
+
+        <div>
+          <button type="button" class=" submitbtn btn btn-primary">Submit</button>
+        </div>
+
+        <br>
+    
+        
+      </div>
+    </div>
+    <!-- Display score -->
+        <h1 id="scr"></h1>
+        <h3 id="totalAttempts"></h3>
+        <button type="button" class=" resetbtn submitbtn btn btn-danger">Reset</button>
+
+    <script src="script.js">
+    </script>
+  </body>
+</html>
