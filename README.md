@@ -2,14 +2,14 @@
 <br>
 <img src="Quiz.gif"> </img>
 <br>
-<a href="https://gurupremrajpal.github.io/Quiz_Website/"> Website </a>
+<a href="https://www.linkedin.com/in/guruprem-singh-rajpal-67b486122/Quiz/index.html"> Website </a>
 <br>
 <br>
 
 # Tech Stack used - 
 Front-end : HTML, CSS <br>
 
-Made ✌🏻 by <a href="https://www.linkedin.com/in/guruprem-singh-rajpal-67b486122/Quiz/index.html"> Guruprem Rajpal </a>
+Made ✌🏻 by <a href="https://www.linkedin.com/in/guruprem-singh-rajpal-67b486122/"> Guruprem Rajpal </a>
 <br>
 Click on Star if you like :)
 <br>
